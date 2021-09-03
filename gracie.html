@@ -4,29 +4,33 @@
 <title>My First Project</title>
 </head>
 <body style="background-color: yellow;">
+    <link href="https://fonts.google.com/specimen/Allison" rel="stylesheet" type="text/css">
     <style>
-        body {background-color: ivory!important;}
-        h1 {color: red;font-family: Georgia; font-size: 40px;}  
+        body {background-color: ivory!important;font-family: monospace;}
+        h1 {color: hotpink; font-family: Allison; font-size: 68px;background-color: rgba(45, 45, 45, 0.1);}  
         .green-text {color: green;}
-        p {font-size: 20px;}
-        .larger-image {width: 500px;}
+        p {font-size: 20px;text-align: center;}
+        .larger-image {width: 200px;} 
+        .thin-yellow-border{border-color: yellow; border-width: 5px;border-style: solid;border-radius: 10px;}
+        #thin-red-border{border-color: red;border-width: 10px;border-style: solid;border-radius: 15px;}
+        #green-background {background-color: green; padding-left: 10px;padding-right: 5px;padding-top: 15px;padding-bottom: 20px; margin: 5px;}
     </style>
 <main>
-<h1>Hello World</h1>
-<p>My name is Grace, I am an exceptional young lady</p>
-<p>Lately i have been going through some mental stress because i feel like i have not achieved enough right now</p>
-<img class="larger-image" src="https://bit.ly/3zGykFW" alt="A Nigerian Girl">
+<h1><hr> Hello World <hr></h1>
+<p>My name is <u>Grace</u>, I am an exceptional young lady</p>
+<p><em> Lately I have been going through some mental stress because I feel like I have not achieved enough right now</em></p>
+<p><img id="thin-red-border" class="larger-image thin-yellow-border" src="https://bit.ly/3zGykFW" alt="A Nigerian Girl"></p>
 <p>Here is <a target = "_blank" href="https://github.com/gracie1093/git_test">The link to my github page</a></p>
 <p>Some of the things I love to do include but not limited to:</p>
-<div>
-<p><ul>
-    <li class="green-text">Reading</li>
-    <li class="green-text">Singing</li>
-    <li class="green-text">Sleeping</li>
-</ul></p>
+<div class="thin-yellow-border" id="green-background">
+<p><strong><ul>
+    <li>Reading</li>
+    <li>Singing</li>
+    <li>Sleeping</li>
+</ul></strong></p>
 </div>
 <p>My favourite food 
-    <input type="text" required placeholder="Yam and Egg">
+    <input type="text" required placeholder="Yam and Egg"><button type="submit">Submit</button>
 </p>
 <p>Which do you thin I like the most
     <label for="Singing">
